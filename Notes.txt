@@ -1,0 +1,11 @@
+Date - 20-02-2025
+
+DCL Commands in SQL
+
+- Grant 
+- Revoke
+
+Role Base Permissions
+
+db_owner, db_reader, db_writer
+
