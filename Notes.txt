@@ -9,3 +9,60 @@ Role Base Permissions
 
 db_owner, db_reader, db_writer
 
+----------------------------------------------------
+
+
+Joins
+
+
+-----------------------------------------------------
+
+Date - 24-02-2024
+
+Index in SQL
+    - Improves the speed of data retrieval operations
+
+    Logical Reads - Number of pages read from memeory (High value = possible optimization needed)
+    
+    Physical Reads - Pages read from disk(should be minized)
+
+    Read-Ahead REads - Pages preloaded into memory (for performance imporvement)
+
+    CPU Time - Time spent by the processor executing the query
+
+    Elasped Time - Total time taken (Includeing I/O, waiting etc)
+    
+    High CPU Time - Query may need optimization (eg indexing)
+
+    High Elapsed Time - Disk or memory bottlenecks.
+
+
+Types of Index
+ 
+ 1. Clustered Index ( 1 clusterd index per table)
+ 2. Non - clustered Index
+ 3. Unique Index
+ 4. Composite Index
+
+
+Functions and Stored Procedures in SQL
+
+    Types of Functions
+        1. Scalar Functions
+        2. Inline Table-Valued Functions
+        3. Multi-statement Table-valued function
+
+
+Trigger
+
+    Types of Triggerin SQL Server
+     
+        1. After (for) triggers
+        2. Instead of triggers
+        3. DDL triggers
+        4. LOGON triggers
+
+
+
+
+
