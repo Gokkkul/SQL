@@ -13,6 +13,10 @@ db_owner, db_reader, db_writer
 
 
 Joins
+SP
+Trigger 
+CASE , IF 
+
 
 
 -----------------------------------------------------
@@ -61,6 +65,19 @@ Trigger
         2. Instead of triggers
         3. DDL triggers
         4. LOGON triggers
+
+
+----------------------------------------------------------------------------------------------------------
+
+Date - 25-02-2025
+
+Database Backup and recovery
+
+Security and Best Practices
+(SSN - Social Security Number)
+
+
+BookingService (Booking_id, service_id, quantity, total_service_cost);
 
 
 

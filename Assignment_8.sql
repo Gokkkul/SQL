@@ -5,7 +5,7 @@ create table employee123 (empID int primary key, emp_name varchar(30), FK_deptID
 foreign key references departmentid (deptID));
 
 alter table employee123 
-add managerID int foreign key references employee123 (empID), hireDate date, salary int;
+add managerID int foreign key references employee123 ( ), hireDate date, salary int;
 
 create table tbl_salary (empid int foreign key references employee123(empid) primary key, base_salary int, bonus int);
 -----------------------------------------------------------------------------------------------------------------------------------
